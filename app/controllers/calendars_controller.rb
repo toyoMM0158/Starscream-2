@@ -43,6 +43,7 @@ class CalendarsController < ApplicationController
         wday: wdays[wday_num] # wdaysから取り出した曜日の要素を代入
       }
       @week_days.push(days)
+      
     end
 
   end
